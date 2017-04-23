@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)http://www.gtah4ck.cn/translation/translate.html -->
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>INF汉化对照</title>
+		<link href="./Aut汉化菜单_files/jquery.treemenu.css" rel="stylesheet" type="text/css">
+		<style>
+			* {
+				list-style: none;
+				border: none
+			}
+			
+			body {
+				font-family: Arial;
+				background-color: #5E5E5E;
+			}
+			
+			.tree {
+				color: #46CFB0;
+				width: 1000px;
+				margin: auto;
+			}
+			
+			.tree li,
+			.tree li>a,
+			.tree li>span {
+				padding: 4pt;
+				font-size: 20px;
+				border-radius: 4px
+			}
+			
+			.tree li a {
+				color: #46CFB0;
+				text-decoration: none;
+				line-height: 20pt;
+				border-radius: 4px
+			}
+			
+			.tree li a:hover {
+				background-color: #34BC9D;
+				color: #fff
+			}
+			
+			.active {
+				background-color: #34495E;
+				color: white
+			}
+			
+			.active a {
+				color: #fff
+			}
+			
+			.tree li a.active:hover {
+				background-color: #34BC9D
+			}
+			
+			.tree li a>b {
+				color: greenyellow;
+				text-decoration: none;
+				line-height: 20pt;
+				border-radius: 4px
+			}
+			
+			.tree li span>b {
+				color: red;
+				text-decoration: none;
+				line-height: 20pt;
+				border-radius: 4px
+			}
+		</style>
+		<script src="./Aut汉化菜单_files/hm.js"></script>
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "https://hm.baidu.com/hm.js?83c89f03aa4b67a0de6f7e086334eec2";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+
+	</head>
+
+	<body>
+		<ul class="tree treemenu">
+			<p style="font-size:24px;">GTA5包子代练，QQ群：623995164</p>
+			<!--Aut 相关汉化-->
+			<li><span class="toggler"><h2><font color="#1AFF00" >INF汉化对照</font></h2></span>
+				<ul class="treemenu" style="display: block; overflow: hidden;">
+					<li class="tree-closed"><span class="toggler">Online 线上模式</span>
+						<ul class="treemenu" style="display: none;">
+							<li class="tree-closed"><span class="toggler">Select Player 选择玩家</b></span>
+								<ul class="treemenu" style="display: none;">
+									<li class="tree-empty"><span class="toggler">Spectate 偷看</span></li>
+									<li class="tree-empty"><span class="toggler">Teleport To传送</span></li>
+									<li class="tree-empty"><span class="toggler">Parachute To附身</span></li>
+									<li class="tree-empty"><span class="toggler">Force Teleport All To传送所有人到XXX</span></li>
+									<li class="tree-empty"><span class="toggler">Force Teleport To Me强迫所有玩家传送到他</span></li>
+									<li class="tree-empty"><span class="toggler">Freeze(ON/OFF)禁止移动</span></li>
+									<li class="tree-empty"><span class="toggler">Vehicles载具</span></li>
+									<li class="tree-empty"><span class="toggler">Nearby Entities附近的人</span></li>
+									<li class="tree-empty"><span class="toggler">Objects物品</span></li>
+									<li class="tree-empty"><span class="toggler">Particles粒子</span></li>
+									<li class="tree-empty"><span class="toggler">Shoot At暗处射击</span></li>
+									<li class="tree-empty"><span class="toggler">Add Explosion爆炸</span></li>
+									<li class="tree-empty"><span class="toggler">Attackers and Bodyguards袭击者和保镖</span></li>
+									<li class="tree-empty"><span class="toggler">Money金钱选项</span></li>
+									<li class="tree-empty"><span class="toggler">Ped Attachment玩家附身</span></li>
+									<li class="tree-empty"><span class="toggler">Weapons武器</span></li>
+									<li class="tree-empty"><span class="toggler">Attacks袭击玩家</span></li>
+									<li class="tree-empty"><span class="toggler">Animations动画效果</span></li>
+								</ul>
+							</li>
+							<li class="tree-closed"><span class="toggler">All Players所有玩家</span>
+								<ul class="treemenu" style="display: none;">
+									<li class="tree-empty"><span class="toggler">Freeze All (ON/OFF)冻结所有玩家</span></li>
+									<li class="tree-empty"><span class="toggler">Give All Weapons获得所有武器</span></li>
+									<li class="tree-empty"><span class="toggler">Take All Weapons收走所有武器</span></li>
+									<li class="tree-empty"><span class="toggler">Force Teleport To Me所有人强制传送</span></li>
+									<li class="tree-empty"><span class="toggler">Explode All所有人爆炸</span></li>
+									<li class="tree-empty"><span class="toggler">Kill Talking Players杀死说话玩家</span></li>
+									<li class="tree-empty"><span class="toggler">Eject All Flying Players弹出所有玩家</span></li>
+									<li class="tree-empty"><span class="toggler">Animations动作</span></li>
+								</ul>
+							</li>
+							<li class="tree-closed"><span class="toggler">Online Settings线上设置</b></span>
+								<ul class="treemenu" style="display: none;">
+									<li class="tree-empty"><span class="toggler">Show Players Info (ON/OFF)显示角色信息</span></li>
+									<li class="tree-empty"><span class="toggler">Name Changer改名字</span></li>
+									<li class="tree-empty"><span class="toggler">AutoKill Players (ON/OFF)自动击杀</span></li>
+									<li class="tree-empty"><span class="toggler">Off The Radar (ON/OFF)雷达匿踪</span></li>
+									<li class="tree-empty"><span class="toggler">RP Increaser警星刷级</span></li>
+									<li class="tree-empty"><span class="toggler">ESP (ON/OFF)方框透视</span></li>
+									<li class="tree-empty"><span class="toggler">ESP Visible Check (ON/OFF)透视检测</span></li>
+									<li class="tree-empty"><span class="toggler">Show Voice Chat Notifications (ON/OFF)显示说话人名</span></li>
+								</ul>
+							</li>
+							<li class="tree-closed"><span class="toggler">Recovery Settings解锁相关有封号危险，和Menyoo封号概率相似，请小心使用</b></span>
+								<ul class="treemenu" style="display: none;">
+									<li class="tree-empty"><span class="toggler">Max Skills最大能力值</span></li>
+									<li class="tree-empty"><span class="toggler">Redesign Character重置角色</span></li>
+									<li class="tree-empty"><span class="toggler">Skip Tutorial跳过线上引导</span></li>
+									<li class="tree-empty"><span class="toggler">Unlock Heist Vehicles解锁抢劫车辆</span></li>
+									<li class="tree-empty"><span class="toggler">Unlock Tattoos解锁纹身</span></li>
+									<li class="tree-empty"><span class="toggler">Unlock Camos &amp; Parachutes解锁配色和降落伞</span></li>
+									<li class="tree-empty"><span class="toggler">Unlock Chrome Rims解锁铬合金轮圈</span></li>
+									<li class="tree-empty"><span class="toggler">Unlock Exclusive T-Shirts解锁T-shirt</span></li>
+									<li class="tree-empty"><span class="toggler">UInlock LSC Mods解锁车辆配件</span></li>
+									<li class="tree-empty"><span class="toggler">Unlock Achievements解锁成就</span></li>
+									<li class="tree-empty"><span class="toggler">Unlock Hairstyles解锁所有头发发型</span></li>
+									<li class="tree-empty"><span class="toggler">Clear Cheater Stats清除玩家状态</span></li>
+									<li class="tree-empty"><span class="toggler">Clear Bad Sport Stats移除玩家作弊信息</span></li>
+									<li class="tree-empty"><span class="toggler">Reset Mental State恢复玩家精神状态</span></li>
+									<li class="tree-empty"><span class="toggler">Enable Purchase of Rare Vehicles可以购买稀有车辆</span></li>
+								</ul>
+							</li>
+							<li class="tree-closed"><span class="toggler">Tunables战局世界系统控制系统</b></span>
+								<ul class="treemenu" style="display: none;">
+									<li class="tree-empty"><span class="toggler">Custom一般（没啥用，Tuanbles表搞不定这个就没啥用）</span></li>
+									<li class="tree-empty"><span class="toggler">Presets事先安排</span></li>
+									<li class="tree-empty"><span class="toggler">Popular受欢迎功能</span></li>
+									<li class="tree-empty"><span class="toggler">All所有Tunables表</span></li>
+								</ul>
+							</li>
+
+						</ul>
+					</li>
+					<li class="tree-closed"><span class="toggler">Players 玩家选项</span>
+						<ul class="treemenu" style="display: none;">
+
+							<li class="tree-closed"><span class="toggler">Player Skin Options玩家皮肤</b></span>
+								<ul class="treemenu" style="display: none;">
+									<li class="tree-empty"><span class="toggler">Saved Skins保存皮肤</span></li>
+									<li class="tree-empty"><span class="toggler">Players玩家</span></li>
+									<li class="tree-empty"><span class="toggler">Animals动物</span></li>
+									<li class="tree-empty"><span class="toggler">NPCsNPC</span></li>
+									<li class="tree-empty"><span class="toggler">Modify Current Skin修改当前皮肤</span></li>
+									<li class="tree-empty"><span class="toggler">Reset Current Skin重置当前皮肤</span></li>
+									<li class="tree-empty"><span class="toggler">Modify Props添加小配件</span></li>
+									<li class="tree-empty"><span class="toggler">Clear Props清除配件</span></li>
+									<li class="tree-empty"><span class="toggler">Outfits保存当前</span></li>
+								</ul>
+							</li>
+							<li class="tree-closed"><span class="toggler">Player Modifiers玩家属性</b></span>
+								<ul class="treemenu" style="display: none;">
+									<li class="tree-empty"><span class="toggler">Player Health血量</span></li>
+									<li class="tree-empty"><span class="toggler">Player Health Max最大血量</span></li>
+									<li class="tree-empty"><span class="toggler">Player Armour装甲</span></li>
+									<li class="tree-empty"><span class="toggler">Player Stamina体力</span></li>
+									<li class="tree-empty"><span class="toggler">Player Stamina Max体力最大值</span></li>
+									<li class="tree-empty"><span class="toggler">Player Land Speed跑步速度</span></li>
+									<li class="tree-empty"><span class="toggler">Player Swim Speed游泳速度</span></li>
+								</ul>
+							</li>
+
+							<li class="tree-empty"><span class="toggler">Heal Player治疗玩家</span></li>
+							<li class="tree-empty"><span class="toggler">Add Cash增加钱（线上线下通用）</span></li>
+							<li class="tree-empty"><span class="toggler">Wanted Level通缉等级</span></li>
+							<li class="tree-empty"><span class="toggler">Freeze Wanted Level (ON/OFF)锁定通缉等级</span></li>
+							<li class="tree-empty"><span class="toggler">Never Wanted (ON/OFF)永不通缉</span></li>
+							<li class="tree-empty"><span class="toggler">Police Ignore You (ON/OFF)警察忽视你</span></li>
+							<li class="tree-empty"><span class="toggler">Everyone Ignores You (ON/OFF)所有人都忽视你</span></li>
+							<li class="tree-empty"><span class="toggler">Unlimited Ability (ON/OFF)无限能力</span></li>
+							<li class="tree-empty"><span class="toggler">Noiseless (ON/OFF)寂静无声</span></li>
+							<li class="tree-empty"><span class="toggler">God Mode (ON/OFF)无敌</span></li>
+							<li class="tree-empty"><span class="toggler">Fast Swim (ON/OFF)快速游泳</span></li>
+							<li class="tree-empty"><span class="toggler">Fast Run (ON/OFF)快速跑</span></li>
+							<li class="tree-empty"><span class="toggler">Super Run (ON/OFF)超级跑</span></li>
+							<li class="tree-empty"><span class="toggler">Super Man (Fly) (ON/OFF)超人模式</span></li>
+							<li class="tree-empty"><span class="toggler">No Ragdoll (ON/OFF)布娃娃模式</span></li>
+							<li class="tree-empty"><span class="toggler">Invisibility (ON/OFF)隐身</span></li>
+							<li class="tree-empty"><span class="toggler">Midget Mode (ON/OFF)体型缩小</span></li>
+						</ul>
+					</li>
+					<li class="tree-closed">
+						<span class="toggler">Teleport 传送选项</span>
+						<ul class="treemenu" style="display: none;">
+							<li class="tree-empty"><span class="toggler">Teleport To Marker传送到标记点</span></li>
+							<li class="tree-empty"><span class="toggler">Call/Cancel Chauffeur To Marker自动驾驶到标记点</span></li>
+							<li class="tree-empty"><span class="toggler">Teleport To Mission Objective/Checkpoint任务检查点</span></li>
+							<li class="tree-empty"><span class="toggler">Go To Last Vehicle传送至最后的载具</span></li>
+							<li class="tree-empty"><span class="toggler">Show Coordinates显示坐标</span></li>
+							<li class="tree-empty"><span class="toggler">Safehouses安全屋子</span></li>
+							<li class="tree-empty"><span class="toggler">Landmarks地标</span></li>
+							<li class="tree-empty"><span class="toggler">Roof/High Up高处</span></li>
+							<li class="tree-empty"><span class="toggler">Underwater水下</span></li>
+							<li class="tree-empty"><span class="toggler">Convenience Stores便利店</span></li>
+							<li class="tree-empty"><span class="toggler">Extra Interiors额外的内部建筑</span></li>
+							<li class="tree-empty"><span class="toggler">Extra Exterior Scenery特殊场景</span></li>
+						</ul>
+					</li>
+					<li class="tree-closed">
+						<span class="toggler">Weapons 武器</span>
+						<ul class="treemenu" style="display: none;">
+							<li class="tree-empty"><span class="toggler">Give All Weapons所有武器</span></li>
+							<li class="tree-empty"><span class="toggler">Individual Weapons独特的武器</span></li>
+							<li class="tree-empty"><span class="toggler">Ammunition Mods子弹种类</span></li>
+							<li class="tree-empty"><span class="toggler">Modifiers武器调节</span></li>
+							<li class="tree-empty"><span class="toggler">Vehicle Weapons (ON/OFF)载具武器</span></li>
+							<li class="tree-empty"><span class="toggler">Infinite Ammo (ON/OFF)无线弹药</span></li>
+							<li class="tree-empty"><span class="toggler">Infinite Parachutes (ON/OFF)无线降落伞</span></li>
+							<li class="tree-empty"><span class="toggler">No Reload (ON/OFF)0s换弹</span></li>
+							<li class="tree-empty"><span class="toggler">Explosive Melee (ON/OFF)爆炸拳头</span></li>
+							<li class="tree-empty"><span class="toggler">Auto Kill AI Enemies (ON/OFF)自动击杀NPC</span></li>
+						</ul>
+					</li>
+					<li class="tree-closed">
+						<span class="toggler">Vehicles 载具</span>
+						<ul class="treemenu" style="display: none; overflow: hidden;">
+							<li class="tree-empty"><span class="toggler">Management管理载具</span></li>
+							<li class="tree-empty"><span class="toggler">Spawning刷车</span></li>
+							<li class="tree-empty"><span class="toggler">Vehicle Modifications自定义车辆</span></li>
+							<li class="tree-empty"><span class="toggler">Modifiers载具属性</span></li>
+							<li class="tree-empty"><span class="toggler">Respray重新喷漆</span></li>
+							<li class="tree-empty"><span class="toggler">Door Contro控制门</span></li>
+							<li class="tree-empty"><span class="toggler">Change Seat变换座位</span></li>
+							<li class="tree-empty"><span class="toggler">Repair修复</span></li>
+							<li class="tree-empty"><span class="toggler">Clean Flip车辆翻转</span></li>
+							<li class="tree-empty"><span class="toggler">Auto Flip (ON/OFF)绝不翻车</span></li>
+							<li class="tree-empty"><span class="toggler">No Falling (Off/Out) (ON/OFF)没有掉落</span></li>
+							<li class="tree-empty"><span class="toggler">Don’t Wear Helmet (ON/OFF)不会带头盔</span></li>
+							<li class="tree-empty"><span class="toggler">Drive On Water (ON/OFF)水上飞车</span></li>
+							<li class="tree-empty"><span class="toggler">Super Traction (ON/OFF)超级牵引力</span></li>
+							<li class="tree-empty"><span class="toggler">No Traction (ON/OFF)没有牵引力</span></li>
+							<li class="tree-empty"><span class="toggler">No Collision (ON/OFF)没有触碰</span></li>
+							<li class="tree-empty"><span class="toggler">Invincible (ON/OFF)无敌</span></li>
+							<li class="tree-empty"><span class="toggler">Invisible (ON/OFF)隐身</span></li>
+							<li class="tree-empty"><span class="toggler">Speed Boost (ON/OFF)速度加速</span></li>
+							<li class="tree-empty"><span class="toggler">Vehicle Jump (ON/OFF)载具跳跃</span></li>
+						</ul>
+					</li>
+					<li class="tree-closed">
+						<span class="toggler">Objects 物品</span>
+						<ul class="treemenu" style="display: none; overflow: hidden;">
+							<li class="tree-empty"><span class="toggler">Object Spawner生成物品</span></li>
+							<li class="tree-empty"><span class="toggler">Spawn Options生成选项</span></li>
+							<li class="tree-empty"><span class="toggler">Edit Spawned Objects编辑物品</span></li>
+							<li class="tree-empty"><span class="toggler">Remove All Spawned Objects删除所有物品</span></li>
+						</ul>
+					</li>
+					<li class="tree-empty"><span class="toggler">Animations 动作</span></li>
+					<li class="tree-empty"><span class="toggler">Scenarios场景效果</span></li>
+					<li class="tree-empty"><span class="toggler">Particles粒子效果</span></li>
+					<li class="tree-empty"><span class="toggler">Visions 视觉效果</span></li>
+					<li class="tree-empty"><span class="toggler">World 世界选项</span></li>
+					<li class="tree-empty"><span class="toggler">Time 时间选项</span></li>
+					<li class="tree-empty"><span class="toggler">Miscellaneous 其他功能</span></li>
+					<li class="tree-empty"><span class="toggler">Reset All Settings 重置所有</span></li>
+					<li class="tree-empty"><span class="toggler">Infamous Website 访问网站</span></li>
+					<li class="tree-empty"><span class="toggler">Sign-Out 注销</span></li>
+				</ul>
+			</li>
+
+			<!-- 
+	  <li class="tree-closed"><span class="toggler"><h2><font color="#1AFF00">骗子QQ</font></h2></span>
+	  	<ul class="treemenu" style="display: none;">
+	  		<li class="tree-closed"><span class="toggler">1445365634</span>
+	  			<ul class="treemenu" style="display: none;"><li class="tree-empty"><span class="toggler">代购，但是会改密码</span></li></ul>
+	  		</li>
+	  		<li class="tree-closed"><span class="toggler">2533840715</span>
+	  			<ul class="treemenu" style="display: none;"><li class="tree-empty"><span class="toggler">40人用一个账号</span></li></ul>
+	  		</li>
+	  	</ul>
+	  </li>-->
+		</ul>
+		<script src="./Aut汉化菜单_files/jquery-1.11.2.min.js"></script>
+		<script src="./Aut汉化菜单_files/jquery.treemenu.js"></script>
+		<script>
+			$(function() {
+				$(".tree").treemenu({
+					delay: 300
+				}).openActive()
+			});
+		</script>
+
+	</body>
+
+</html>
